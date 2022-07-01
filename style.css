@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    font-family: Roboto;
+}
+
+body {
+    background-color: #dfd4c9;
+}
+header {
+    text-align: center;
+    background-color: #122028;
+    margin: 0;
+    padding-top: 15px;
+    line-height: 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+.shop-name {
+    font-size: 30px;
+    font-weight: bold;
+    color: #dfd4c9;
+    margin: 0;
+    font-family: 'Luxurious Roman', cursive;
+    letter-spacing: 3px;
+}
+
+.tag-line {
+    font-size: 15px;
+    color: #dfd4c9;
+    padding-bottom: 10px;
+    font-family: Helvetica;
+}
+
+.product-list-container {
+    padding: 125px 0 0 0;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item {
+    margin: 15px;
+    max-height: 500px;
+    max-width: 330px;
+    position: relative;
+    border: 4px solid #281A12;
+    border-radius: 20px;
+}
+
+.item:hover {
+    opacity: 0.7;
+}
+
+.item-image {
+    width: 320px;
+    height: 300px; 
+    border-radius: 20px 20px 0 0;
+    margin-bottom: -10px;
+}
+
+.product-info {
+    padding: 10px; 
+    background-color: #281A12;
+    border-radius: 0 0 15px 15px;
+}
+
+.item-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.discounted-price {
+    font-size: 16px;
+}
+
+.original-price-discount {
+    font-size: 14px;
+    color: gray; 
+}
+
+.original-price {
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.original-price, .discount {
+    color: gray;
+}
+
+.fa-star {
+    color: gold;
+    padding-right: 2px;
+}
+
+.rating-no-star > i {
+    color: #808080;
+    margin-left: -4px;
+}
+
+
+.link {
+    position: absolute;
+    width: 320px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: transparent;
+  }
+
+  footer {
+    margin-top: 20px;
+    background-color: #122028;
+    padding: 10px;
+    text-align: center;
+    color: #dfd4c9;
+  }
+
+  .copyright {
+      margin: 10px;
+      color: #dfd4c9;
+  }
+
+  .social-media {
+    text-decoration: none;
+    margin: 5px 15px;
+    color: #dfd4c9;
+  }
